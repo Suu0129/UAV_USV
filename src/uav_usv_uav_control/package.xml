@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>uav_usv_uav_control</name>
+  <version>0.1.0</version>
+  <description>PX4 offboard flight, return-to-vessel, and moving-deck landing control.</description>
+  <maintainer email="team@example.com">UAV-USV Team</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>python3-pymavlink</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>uav_usv_interfaces</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

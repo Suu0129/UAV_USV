@@ -1,0 +1,15 @@
+# Replace the placeholder team handles with real GitHub users or teams.
+
+/src/uav_usv_interfaces/    @integrator
+/src/uav_usv_description/   @description-team
+/src/uav_usv_gazebo/        @simulation-team
+/src/uav_usv_usv_control/   @usv-control-team
+/src/uav_usv_uav_control/   @uav-control-team
+/src/uav_usv_perception/    @perception-team
+/src/uav_usv_localization/  @localization-team
+/src/uav_usv_navigation/    @navigation-team
+/src/uav_usv_colregs/       @colregs-team
+/src/uav_usv_mission/       @mission-team
+/src/uav_usv_bringup/       @integrator
+/src/uav_usv_tests/         @integrator
+/src/uav_usv_sim/           @integrator

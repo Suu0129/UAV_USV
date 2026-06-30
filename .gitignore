@@ -1,0 +1,31 @@
+# Colcon generated directories
+build/
+install/
+log/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# CMake and compiler products
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.so
+*.o
+
+# ROS runtime data
+.ros/
+*.db3
+*.mcap
+
+# Editor and OS files
+.vscode/
+.idea/
+*~
+.DS_Store
+
+# Generated simulation files
+*.sdf.tmp

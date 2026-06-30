@@ -1,0 +1,34 @@
+scenarios:
+  head_on:
+    description: "Rule 14 head-on encounter. Both vessels approach bow-to-bow."
+    target_pose: [45.0, 0.0, 0.0, 0.0, 0.0, 3.1415926536]
+    ownship_speed: 1.0
+    ownship_heading: 0.0
+    target_speed: 1.0
+    target_heading: 3.1415926536
+
+  crossing_starboard:
+    description: "Rule 15 crossing. Target approaches from ownship starboard side."
+    target_pose: [22.0, -28.0, 0.0, 0.0, 0.0, 1.5707963268]
+    ownship_speed: 1.0
+    ownship_heading: 0.0
+    target_speed: 1.0
+    target_heading: 1.5707963268
+
+  overtaking:
+    description: "Rule 13 overtaking. Ownship approaches a slower vessel from astern."
+    target_pose: [18.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    ownship_speed: 1.2
+    ownship_heading: 0.0
+    target_speed: 0.6
+    target_heading: 0.0
+
+ais:
+  mmsi: 413000001
+  vessel_name: "SIM_TARGET_01"
+  update_period: 2.0
+  latency: 0.5
+  dropout_probability: 0.03
+  position_noise_std: 0.8
+  speed_noise_std: 0.05
+  heading_noise_std: 0.015
