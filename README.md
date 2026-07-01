@@ -108,6 +108,9 @@ git push -u origin feature/perception-mid360
 详细规则见 [协作开发指南](COLLABORATION.md)，公共 Topic、消息、坐标系和 TF
 见 [接口约定](docs/INTERFACES.md)。
 
+当前五人团队的具体任务、两周安排和验收方法见
+[第一阶段五人并行开发任务书](docs/第一阶段五人并行开发任务书.md)。
+
 ## 运行项目
 
 ### 1. 环境要求
